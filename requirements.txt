@@ -1,0 +1,7 @@
+torch==1.4.0
+pandas==1.1.0
+torchvision==0.2.2
+numpy==1.19.2
+matplotlib==3.3.4
+monai==0.4.0
+Pillow==8.1.0
