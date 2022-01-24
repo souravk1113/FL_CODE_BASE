@@ -71,11 +71,13 @@ labels_corn_train=np.concatenate((labels_corn_train,labels_rcor_train),axis=0)
 pathFileTrain= [path_files_corn_train ,path_files_oshu_train ,path_files_beau_train , path_files_ceda_train , path_files_chila_train , path_files_colu_train , path_files_miam_train]
 labelTrain= [labels_corn_train , labels_oshu_train , labels_beau_train , labels_ceda_train , labels_chila_train ,labels_colu_train ,labels_miam_train ]
 
+'''
 path_files_colu_test=np.concatenate((path_files_colu_test,path_files_rcol_test),axis=0)
 path_files_corn_test=np.concatenate((path_files_corn_test,path_files_rcor_test),axis=0)
 
 labels_colu_test=np.concatenate((labels_colu_test,labels_rcol_test),axis=0)
 labels_corn_test=np.concatenate((labels_corn_test,labels_rcor_test),axis=0)
+'''
 
 pathFileTest= [path_files_corn_test , path_files_oshu_test , path_files_beau_test , path_files_ceda_test , path_files_chila_test , path_files_colu_test , path_files_miam_test ]
 labelTest= [labels_corn_test , labels_oshu_test , labels_beau_test , labels_ceda_test , labels_chila_test ,labels_colu_test ,labels_miam_test ]
